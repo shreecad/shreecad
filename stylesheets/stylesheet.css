@@ -64,8 +64,8 @@ a:hover {
 }
 
 header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
@@ -153,7 +153,7 @@ aside a.button {
   padding-left: 64px;
   display: block;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   font-size: 21px;
 }
 
@@ -487,4 +487,61 @@ font-size: 20px;
 table.homefootertable td{   
   margin-right: 5px;
   margin-left: 5px;
+}
+
+#middlebar-big {
+  width:705px;
+  height:304px;
+  margin-left:0px;
+}
+#middlebar-big h2 {
+  padding:62px 0 0 100px;
+  color:#fff;
+  font-size:28px;
+  line-height:30px;
+  font-weight:bold;
+  border:0;
+} 
+#middlebar-big p {
+  padding:5px 0 10px 100px;
+  font-size:22px;
+  line-height:23px;
+} 
+#middlebar-big a.learn-more {
+  display:block;
+  text-indent:-9999px;
+  width:130px;
+  height:26px;
+}
+#middlebar-big .product {
+  position:relative;
+  width:100%;
+  height:100%;
+  background:transparent !important; /* Strange fix needed for IE */
+  margin-top:20px;
+}
+#middlebar-big .product p { margin-bottom:0px; }
+#middlebar-big .product a { border:0; }
+#middlebar-big .product a:hover { color:#20333F; }
+#middlebar-big .product img {
+  position:absolute;
+  top:-23px;
+  right:-42px;
+} 
+#middlebar-big {
+  background:url(../images/middlebar_big.png) no-repeat;
+}
+#middlebar-small {
+  width:879px;
+  height:140px;
+  margin-left:21px;
+  position:relative;
+}
+#middlebar-small h2 {
+  padding:70px 0 0 50px;
+  color:#fff;
+  font-size:28px;
+  line-height:30px;
+  font-weight:bold;
+  border:0;
 }
